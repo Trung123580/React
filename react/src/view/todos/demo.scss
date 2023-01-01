@@ -1,0 +1,37 @@
+.list-todo-container {
+    button {
+        cursor: pointer;
+    }
+
+    // các nút button khi chỉ vao chuyển từ mũi tên sang bàn tau của chuột
+
+    .add-todo {
+        .add {
+            margin: 0 10px; // khoảng cánh
+        }
+    }
+
+    .list-todo-content {
+        width: 400px;
+        margin: 0 auto;
+        // border: 1px solid red;
+        // text-align: left;
+
+        .todo-child {
+            &:first-child {
+                border-top: 1px solid gray;
+            }
+
+            height: 40px;
+            border-bottom: 1px solid gray;
+            margin-top: 10px;
+        }
+
+        .edit {
+            margin: 0 10px;
+        }
+
+        // => khoảng cánh giữa edit va delete
+
+    }
+}
